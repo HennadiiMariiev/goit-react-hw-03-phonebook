@@ -30,7 +30,9 @@ const Contacts = ({ contacts, deleteContact, deleteAll }) => {
     <StyledDiv>
       <StyledSubTitle>Contacts</StyledSubTitle>
       <StyledList>{contactsItems}</StyledList>
-      <StyledPrimaryButton onClick={deleteAll}>Remove all</StyledPrimaryButton>
+      <StyledPrimaryButton onClick={deleteAll} style={{ backgroundColor: '#FAFAFA' }}>
+        Remove all
+      </StyledPrimaryButton>
     </StyledDiv>
   );
 };

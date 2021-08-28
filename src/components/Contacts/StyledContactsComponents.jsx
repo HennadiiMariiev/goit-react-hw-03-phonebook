@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledSubTitle = styled.h2`
   color: #2db57f;
@@ -48,6 +48,8 @@ export const StyledList = styled.ul`
   justify-content: center;
 
   list-style: none;
+
+  margin-bottom: 1rem;
 `;
 
 export const StyledItem = styled.li`
